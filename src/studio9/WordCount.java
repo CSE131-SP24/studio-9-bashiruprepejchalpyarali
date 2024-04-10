@@ -30,7 +30,8 @@ public class WordCount {
 	 */
 	public static Map<String, Integer> countWords(List<String> words) {
 
-		// FIXME
+		Map<String, Integer> count= new HashMap();
+		count.put("to", 1);
 		throw new NotYetImplementedException();
 
 	}
